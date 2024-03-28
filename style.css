@@ -107,11 +107,14 @@ input::placeholder {
     gap: 0px;
     opacity: 0px;
     background-color: #2B3844;
+    padding-bottom: 46px;
+    border-radius: 5px;
 }
 
 .card>img {
     margin-bottom: 24px;
     width: 100%;
+    border-radius: 5px;
 }
 
 .title_card {

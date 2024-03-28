@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    height: 80px;
+    background-color: #2B3844;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    width: 300px;
+    top: 30px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+
+    margin-left: 80px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.leftheader {
+    width: 120px;
+    height: 17px;
+    top: 32px;
+    left: 275px;
+    opacity: 0px;
+    margin-right: 80px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.leftheader>p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+    text-align: left;
+    color: white;
+
+
+}
+
+.leftheader>img {
+    margin-right: 8px;
+}
+
+.leftmain>img {
+    width: 560px;
+    height: 401px;
+
+}
+
+body {
+    background-color: #202C36;
+}
+
+.Germany {
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.65px;
+    text-align: left;
+    color: white;
+}
+
+.main2 {
+    display: flex;
+    gap: 144px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.left2 {
+    width: 207px;
+    height: 160px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    margin-top: 23px;
+}
+
+.right2 {
+    width: 250px;
+    height: 96px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    margin-top: 62px;
+}
+
+.main3 {
+    display: flex;
+    gap: 117px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 70px;
+    gap: 12px;
+}
+
+.footer>p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.buttons>button {
+    width: 96px;
+    height: 28px;
+    background-color: #2B3844;
+    color: white;
+    border: none;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19.1px;
+
+
+}
+
+.back {
+    width: 136px;
+    height: 40px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    background-color: #2B3844;
+    border: none;
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 142px;
+}
+
+.back>img {
+    margin-right: 10px;
+}
+
+
+@media (max-width:375px) {
+    h1 {
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+        text-align: left;
+        margin-left: 16px;
+    }
+
+    .leftheader {
+        margin-right: 16px;
+
+    }
+
+    .leftheader>p {
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16.37px;
+        text-align: left;
+
+    }
+
+    .back {
+        margin-top: 40px;
+        margin-left: 28px;
+        width: 104px;
+        height: 32px;
+
+
+    }
+
+    .leftmain>img {
+        width: 320px;
+        height: 229px;
+        margin: 0px 28px;
+
+    }
+
+    .main2 {
+        display: block;
+    }
+
+    .Germany {
+        font-family: Nunito Sans;
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 30.01px;
+        text-align: left;
+        margin-top: 44px;
+        margin-left: 28px;
+    }
+
+    .main3 {
+        display: block;
+        padding-left: 28px;
+    }
+
+    .left2 {
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: left;
+
+    }
+
+    .right2 {
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: left;
+        width: 200px;
+        height: 96px;
+        top: 727px;
+        left: 28px;
+        gap: 0px;
+        opacity: 0px;
+
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 28px;
+        padding-bottom: 62px;
+    }
+    .footer>p{
+        font-family: Nunito Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+
+    }
+
+
+}
